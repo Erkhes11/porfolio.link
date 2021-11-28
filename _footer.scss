@@ -1,0 +1,55 @@
+.footer {
+    width: 100%;
+    height: fit-content;
+    margin-top: 120px;
+    border-top: 2px solid black;
+    h1 {
+        font-size: 45px;
+        font-family: 'Roboto Mono';
+        text-align: center;
+        margin: 20px;
+        color: orange;
+    }
+    .icons {
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        a {
+            text-decoration: none;
+            i {
+                font-size: 40px;
+                margin-right: 50px;
+                color: #3572da;
+                span {
+                    font-size: 15px;
+                    letter-spacing: 2px;
+                }
+            }
+            i:hover {
+                animation: ani .8s 1;
+                color: yellow;
+            }
+        }
+    }
+}
+@keyframes ani {
+    0% {
+        transform: translateY(0px);
+    }
+
+    33% {
+        transform: translateY(-7px);
+    }
+
+    66% {
+        transform: translateY(0px);
+    }
+    
+    85% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,68 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    /*background-position: center;
+    background-size: cover;*/
+    &_top {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        border-bottom: 2px solid black;
+        h1 {
+            color: #3f51b5;
+            font-family: 'Roboto Mono';
+            padding-left: 30px;
+        }
+        .li {
+            display: flex;
+            list-style: none;
+            margin-right: 20px;
+            a {
+                i {
+                    padding-right: 30px;
+                    font-size: 25px;
+                    color:#3f51b5;
+                }
+            }
+            a:hover {
+                i {
+                    color: gold;
+                }
+            }
+        }
+    }
+    &_main {
+        width: 100%;
+        height: 91%;
+        background-position: center;
+        background-size: cover;
+        /*background-image: url(https://scontent.fuln6-1.fna.fbcdn.net/v/t1.15752-9/259243659_425699685940536_5680877590692348808_n.png?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=hitlUmEyazIAX-vMRCa&tn=d5RFd7pYp6rFX_dQ&_nc_ht=scontent.fuln6-1.fna&oh=c2d3c5a8915b3eef500f9728ac757498&oe=61C2C523);
+       /*background-image: url(https://cdna.artstation.com/p/assets/images/images/031/006/210/large/bao-songyuan-.jpg?1606874816);*/
+        /*background-image: url(https://i.pinimg.com/originals/19/a4/46/19a446fe866d075d90d34ab30da5ffed.jpg);*/
+        /*background-image: url(https://i.pinimg.com/originals/2c/ff/7e/2cff7ee48560d2394f27eecedb32a984.jpg);*/
+        background-image: url(https://i.pinimg.com/originals/91/05/a3/9105a3cd60786eaac611855b6c0b0d9c.jpg);
+        p {
+            color: #3f51b5;
+            font-family: 'Caveat';
+            font-size: 75px;
+            font-weight: bold;
+            padding-top: 30px;
+            padding-left: 30px;
+            animation: left .7s 1;
+            text-align: center;
+            padding-top: 160px;
+        }
+    }
+}
+@keyframes left {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
